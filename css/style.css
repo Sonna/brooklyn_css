@@ -13,11 +13,25 @@ footer,
 header,
 main {
   margin: 0 auto;
-  /*min-width: 1200px;*/
-  min-width: 800px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  footer,
+  header,
+  main {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  footer,
+  header,
+  main {
+    max-width: 1200px;
+  }
 }
 
 footer img {
