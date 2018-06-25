@@ -34,12 +34,6 @@ main {
   }
 }
 
-footer img {
-  border: 5px solid #CDCDCD;
-  padding: 1px;
-  width: 24%;
-}
-
 h1 {
   font-weight: 600;
 }
@@ -60,5 +54,35 @@ main h2 {
 }
 
 .press {
+  display: block;
   width: 100%;
+}
+
+.press img {
+  border: 5px solid #CDCDCD;
+  margin-top: 2px;
+  padding: 2px;
+  width: 49%;
+}
+
+.press img + img {
+  margin-left: 2px;
+}
+
+.press img:nth-child(3) {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .press img:nth-child(3) {
+    margin-left: 2px;
+  }
+
+  .press {
+    display: flex;
+  }
+
+  .press img {
+    width: 25%;
+  }
 }
