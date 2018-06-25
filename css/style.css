@@ -1,0 +1,50 @@
+* { box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+}
+
+a,
+time {
+  color: #33AAFF;
+}
+
+footer,
+header,
+main {
+  margin: 0 auto;
+  /*min-width: 1200px;*/
+  min-width: 800px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+footer img {
+  border: 5px solid #CDCDCD;
+  padding: 1px;
+  width: 24%;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h1,
+h2,
+p,
+span {
+  color: #888888;
+}
+
+img {
+  width: 100%;
+}
+
+main h2 {
+  font-size: 20px;
+}
+
+.press {
+  width: 100%;
+}
