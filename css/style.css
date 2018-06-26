@@ -9,6 +9,10 @@ time {
   color: #33AAFF;
 }
 
+body {
+  margin: 0;
+}
+
 footer,
 header,
 main {
